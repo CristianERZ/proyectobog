@@ -1,0 +1,52 @@
+{% extends "proyectoblogapp/base.html" %} 
+
+{% load static %}
+
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'proyectoblogapp/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Medio Ambiente</span>
+            <span class="section-heading-lower">¿Qué es?</span>
+          </h2>
+          <p class="mb-3">El medio ambiente es el conjunto de componentes físicos, químicos, biológicos, de las personas o de la sociedad en su conjunto. Comprende el conjunto de valores naturales, sociales y culturales existentes en un lugar y en un momento determinado, que influyen en la vida del ser humano y en las generaciones futuras. Es decir, no se trata solo del espacio en el que se desarrolla la vida, sino que también comprende a los seres vivos, objetos, agua, suelo, aire y las relaciones entre ellos.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Problemas del medio ambiente</span>
+                <span class="section-heading-lower">La Causa</span>
+              </h2>
+              <p class="mb-0">Las causas que amenazan a nuestro planeta con un cambio radical en el ecosistema, se deben a lo siguiente elementos:
+
+                Contaminación del agua dulce y de los mares: provocada por la actividad industrial y las ciudades.
+                Contaminación del aire: procedente de la industria y los automóviles. La generación de gases de efecto invernadero representa un peligro de calentamiento global que podría cambiar el clima a nivel planetario.
+                Destrucción de la capa de ozono: resultado de la emisión de ciertos gases industriales, la pérdida de esta capa atmosférica dejaría a la Tierra sin protección contra las radiaciones solares.
+                Destrucción de los bosques: la pérdida de la vegetación natural, unida al calentamiento global, permite un rápido avance del desierto.
+                Residuos urbanos: la acumulación de basura es un grave problema de las ciudades modernas.
+                Eliminación de la biodiversidad: la pérdida de variedad biológica empobrece el ecosistema global y priva a la humanidad de importantes recursos. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
+  
